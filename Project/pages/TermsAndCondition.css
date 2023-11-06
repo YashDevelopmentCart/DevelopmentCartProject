@@ -1,0 +1,250 @@
+:root {
+    --inter-font: "Inter", sans-serif;
+    --sora-font: "Sora", sans-serif;
+    --primary-color: #00aeef;
+    --secondary-color: #05060f;
+    --text-color: #696a6f;
+  }
+
+  body{min-height:70vh;}
+  .navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-default.scrolled .sec-header{
+    width: 100%;
+    background: #051C81;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+  .navbar-default.scrolled .top_header{
+   display: none;
+}
+.navbar-default.scrolled .sec-header .nav-btn{
+  background-color:#00AEEF
+}
+  .navbar-default.scrolled .banner, .banner-img{
+    margin-top: 94px;
+  }
+
+
+
+  
+  .main-conatiner {
+    background: url(../Images//termsAndConditions-img.png);
+    background-repeat: no-repeat;
+    height: 762px;
+  }
+  .nav-btn {
+    backdrop-filter: blur(2px);
+  
+    background-color: #00aeef;
+    color: #ffffff;
+    padding: 8px 24px;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    border-radius: 4px;
+  }
+  
+  .container a {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ede8ff;
+  }
+ 
+  .menu-ul {
+    padding: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .top_header {
+    background: rgba(11, 11, 11, 0.2);
+  }
+  .top-menu-content {
+    display: flex;
+    padding: 8px 0px;
+  }
+  .top-menu-content div {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 30px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #f3f3f3;
+  }
+  .top-menu-content div span {
+    margin-left: 12px;
+  }
+  .navbar {
+    padding: 10.66px 0px;
+  }
+  .sec-header {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+  }
+  .banner_box {
+    padding: 19px 0px 131px 0px;
+  }
+  .banner_box h3 {
+    font-family: var(--sora-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+   margin-top: 225px;
+  }
+  .banner_box p {
+    font-family: var(--inter-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #f0f0f1;
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+  }
+  
+  
+ 
+
+  .terms-and-conditions-container{
+    padding: 94px 115px;
+    gap: 20px;
+  }
+  .terms-and-conditions-container .container .terms-h4{
+    font-family: var(--sora-font);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+text-transform: uppercase;
+color: #05060F;
+margin-bottom: 36px;
+  }
+  .terms-and-conditions-container .container .security-div h4{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+text-transform: uppercase;
+color: #05060F;
+margin-bottom: 24px;
+  }
+  .terms-and-conditions-container .container .security-div p {
+    font-family:var(--inter-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #1E1F27;
+    margin-bottom: 54px;
+  }
+  .terms-and-conditions-container .container .avalablity-div h4{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+text-transform: uppercase;
+color: #05060F;
+margin-bottom: 24px;
+  }
+  .terms-and-conditions-container .container .avalablity-div p    {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #1E1F27;
+margin-bottom: 54px;
+  }
+
+
+  
+  .terms-and-conditions-container .container .process-div h4{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+text-transform: uppercase;
+color: #05060F;
+margin-bottom: 24px;
+  }
+  .terms-and-conditions-container .container .process-div p    {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #1E1F27;
+margin-bottom: 54px;
+  }
+
+  .terms-and-conditions-container .container .confiden h4{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.005em;
+text-transform: uppercase;
+color: #05060F;
+margin-bottom: 24px;
+  }
+  .terms-and-conditions-container .container .confiden p    {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #1E1F27;
+
+  }
+
+
+.btn-div{
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+}
+
+.count-textarea{
+  position: absolute;
+  right: 10px;
+  top: 340px;
+ 
+}
+textarea{
+  resize: none;
+}
